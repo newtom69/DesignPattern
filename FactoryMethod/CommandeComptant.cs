@@ -17,7 +17,7 @@ namespace FactoryMethod
 
         public override bool Valide()
         {
-            return true;
+            return (_montant <= 5000.0);
         }
     }
 }
