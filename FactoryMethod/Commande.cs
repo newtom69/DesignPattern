@@ -2,17 +2,17 @@ using System;
 
 namespace FactoryMethod
 {
-  public abstract class Commande
-  {
-    protected double _montant;
-
-    public Commande(double montant)
+    public abstract class Commande
     {
-      _montant = montant;
-    }
+        protected double _montant;
 
-    public abstract bool Valide();
-    public abstract void Paye();
-    public abstract void PayeKo();
+        public Commande(double montant)
+        {
+            _montant = montant;
+        }
+
+        public abstract bool Valide();
+        public abstract void Paye();
+        public abstract void PayeKo();
     }
 }

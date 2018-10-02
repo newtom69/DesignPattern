@@ -1,11 +1,11 @@
 
 namespace FactoryMethod
 {
-  public class ClientComptant : Client
-  {
-    protected override Commande CreerCommande(double montant)
+    public class ClientComptant : Client
     {
-      return new CommandeComptant(montant);
+        protected override Commande CreerCommande(double montant)
+        {
+            return new CommandeComptant(montant);
+        }
     }
-  }
 }
