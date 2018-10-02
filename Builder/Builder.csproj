@@ -44,9 +44,11 @@
   <ItemGroup>
     <Compile Include="ClientVehicule.cs" />
     <Compile Include="ConstructeurLiasseVehicule.cs" />
+    <Compile Include="ConstructeurLiasseVehiculeOdt.cs" />
     <Compile Include="ConstructeurLiasseVehiculeHtml.cs" />
     <Compile Include="ConstructeurLiasseVehiculePdf.cs" />
     <Compile Include="Liasse.cs" />
+    <Compile Include="LiasseOdt.cs" />
     <Compile Include="LiasseHtml.cs" />
     <Compile Include="LiassePdf.cs" />
     <Compile Include="ClasseMain.cs" />
