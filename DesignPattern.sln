@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fabrique Véhicule", "Fabri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Factory", "Abstract Factory\Abstract Factory.csproj", "{E8304992-D0C7-4CF6-BE60-F9094D67566F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenteVéhicule", "VenteVéhicule\VenteVéhicule.csproj", "{77EDC240-9985-4FAF-9469-34848243BE1D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{AD2B45D6-F53F-4B87-BF74-F0976D31C214}"
 EndProject
 Global
@@ -23,10 +21,6 @@ Global
 		{E8304992-D0C7-4CF6-BE60-F9094D67566F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8304992-D0C7-4CF6-BE60-F9094D67566F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8304992-D0C7-4CF6-BE60-F9094D67566F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{77EDC240-9985-4FAF-9469-34848243BE1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77EDC240-9985-4FAF-9469-34848243BE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77EDC240-9985-4FAF-9469-34848243BE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77EDC240-9985-4FAF-9469-34848243BE1D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AD2B45D6-F53F-4B87-BF74-F0976D31C214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD2B45D6-F53F-4B87-BF74-F0976D31C214}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD2B45D6-F53F-4B87-BF74-F0976D31C214}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,7 +31,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E8304992-D0C7-4CF6-BE60-F9094D67566F} = {07303075-9A28-4821-844A-182A2E8DD0E6}
-		{77EDC240-9985-4FAF-9469-34848243BE1D} = {B8CFE5EE-08F5-4A9D-8B07-CF4BA98BD3EB}
 		{AD2B45D6-F53F-4B87-BF74-F0976D31C214} = {07303075-9A28-4821-844A-182A2E8DD0E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
