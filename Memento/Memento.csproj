@@ -42,9 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChariotOption.cs" />
     <Compile Include="Memento.cs" />
+    <Compile Include="MementoImpl.cs" />
+    <Compile Include="OptionVehicule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilisateur.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
