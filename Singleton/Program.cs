@@ -10,6 +10,9 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
+            TestVendeur test = new TestVendeur();
+            test.LoadSingleton();
+            Console.ReadLine();
         }
     }
 }

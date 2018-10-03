@@ -1,7 +1,7 @@
 using System;
 
 
-namespace DesignPattern.Singleton
+namespace Singleton
 {
   public class Vendeur
   {
