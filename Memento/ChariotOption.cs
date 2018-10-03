@@ -10,7 +10,7 @@ namespace Memento
 
         public Memento ajouteOption(OptionVehicule optionVehicule)
         {
-            MementoImpl resultat = new MementoImpl();
+            Memento resultat = new Memento();
             resultat.LesOptions = options;
             IList<OptionVehicule> optionsIncompatibles = optionVehicule.OptionsIncompatibles;
 
@@ -24,7 +24,7 @@ namespace Memento
 
         public void annule(Memento memento)
         {
-            MementoImpl mementoImplInstance = memento as MementoImpl;
+            Memento mementoImplInstance = memento as Memento;
 
             if (mementoImplInstance == null)
                 return;

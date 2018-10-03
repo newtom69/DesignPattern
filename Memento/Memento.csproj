@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="ChariotOption.cs" />
     <Compile Include="Memento.cs" />
-    <Compile Include="MementoImpl.cs" />
     <Compile Include="OptionVehicule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
