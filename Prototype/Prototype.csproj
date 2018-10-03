@@ -47,8 +47,11 @@
     <Compile Include="DemandeImmatriculation.cs" />
     <Compile Include="Document.cs" />
     <Compile Include="Liasse.cs" />
+    <Compile Include="LiasseClient.cs" />
+    <Compile Include="LiasseVierge.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilisateur.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

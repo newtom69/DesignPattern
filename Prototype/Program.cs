@@ -10,6 +10,9 @@ namespace Prototype
     {
         static void Main(string[] args)
         {
+            Utilisateur util = new Utilisateur();
+            util.LoadPrototype();
+            Console.ReadLine();
         }
     }
 }
