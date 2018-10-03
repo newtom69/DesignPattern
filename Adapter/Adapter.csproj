@@ -42,9 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ComposantOdt.cs" />
     <Compile Include="ComposantPdf.cs" />
     <Compile Include="Document.cs" />
     <Compile Include="DocumentHmtl.cs" />
+    <Compile Include="DocumentOdt.cs" />
     <Compile Include="DocumentPdf.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

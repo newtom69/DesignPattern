@@ -2,34 +2,34 @@ using System;
 
 namespace Adapter
 {
-  public class ComposantPdf
-  {
-    protected string contenu;
-
-    public void PdfFixeContenu(string contenu)
+    public class ComposantPdf
     {
-      this.contenu = contenu;
-    }
+        protected string contenu;
 
-    public void PdfPrepareAffichage()
-    {
-      Console.WriteLine("Affichage PDF : Début");
-    }
+        public void PdfFixeContenu(string contenu)
+        {
+            this.contenu = contenu;
+        }
 
-    public void PdfRafraichit()
-    {
-      Console.WriteLine("Affichage contenu PDF : " +
-        contenu);
-    }
+        public void PdfPrepareAffichage()
+        {
+            Console.WriteLine("Affichage PDF : Début");
+        }
 
-    public void PdfTermineAffichage()
-    {
-      Console.WriteLine("Affichage PDF : Fin");
-    }
+        public void PdfRafraichit()
+        {
+            Console.WriteLine("Affichage contenu PDF : " +
+              contenu);
+        }
 
-    public void PdfEnvoieImprimante()
-    {
-      Console.WriteLine("Impression PDF : " + contenu);
+        public void PdfTermineAffichage()
+        {
+            Console.WriteLine("Affichage PDF : Fin");
+        }
+
+        public void PdfEnvoieImprimante()
+        {
+            Console.WriteLine("Impression PDF : " + contenu);
+        }
     }
-  }
 }
